@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background: url(../images/body-bg.jpg) repeat;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 950px;
+  height: 95%;
+  background-color: #fff;
+  border: 5px solid #000;
+  margin: 0 auto;
+  position: relative;
+}
+
+h1 {
+  font-weight: 800;
+  color: #fff31d;
+  background-color: #3fa9f5;
+  display: inline-block;
+  padding: 20px;
+}
+
+h2 {
+  font-weight: 800;
+  color: #3fa9f5;
+  background-color: black;
+  display: inline-block;
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.game-info,
+.game-start {
+  margin-bottom: 50px;
+}
+.game-info span,
+.game-start span {
+  display: block;
+}
+
+.game-view {
+  width: 1000px;
+  margin: 40px auto;
+}
+.game-view .player-view {
+  float: left;
+  width: 47%;
+  padding-bottom: 50px;
+}
+.game-view .computer-option,
+.game-view .player-option {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+.game-view .computer-option {
+  background: url(../images/left-side-player.jpg) no-repeat;
+  background-position: 0 -200px;
+}
+.game-view .player-option {
+  background: url(../images/right-side-player.jpg) no-repeat;
+  background-position: 0 0;
+}
+
+.message {
+  position: absolute;
+  left: 44%;
+  bottom: 15%;
+  text-align: center;
+}
+
+.final-msg {
+  position: absolute;
+  left: 44%;
+  bottom: 25%;
+  text-align: center;
+  color: #3fa9f5;
+  font-weight: 600;
+}
+
+.btn,
+.reset {
+  padding: 10px 30px;
+  background-color: #a5cf5b;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+}
+
+.btn:hover,
+.reset:hover {
+  background-color: #fff31d;
+}
+
+.reset {
+  background-color: #3fa9f5;
+}

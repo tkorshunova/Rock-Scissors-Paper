@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tools</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1>Rock, Scissors, Paper</h1>
+
+    <p><strong>Rules:</strong> Scissors beats paper, paper beats rock, rock beats scissors.
+      <br> <strong>We play up to three wins!</strong>
+    </p>
+
+    <div class="game-start">
+      <h2 class='greeting'>Let's play!</h2>
+      <span>Press the button</span>
+    </div>
+
+    <div class="game-info hidden">
+      <h2 class="round"></h2>
+      <span class="score"></span>
+    </div>
+
+    <button type='button' class="btn">Rock</button>
+    <button type='button' class="btn">Paper</button>
+    <button type='button' class="btn">Scissors</button>
+    <button type='button' class="reset hidden">Reset</button>
+
+    <div class="game-view hidden">
+      <div class="player-view computer">
+        <h3>Computer</h3>
+        <div class="computer-option"></div>
+      </div>
+      <div class="res">
+
+      </div>
+      <div class="player-view player">
+        <h3>Player</h3>
+        <div class="player-option"></div>
+      </div>
+    </div>
+
+    <p class='message hidden'></p>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
